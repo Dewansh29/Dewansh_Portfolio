@@ -54,7 +54,7 @@ body {
   font-family: "Funnel Display", sans-serif;
   color: white;
   scroll-behavior: smooth;
-  overflow-x: hidden; /* This line removes the horizontal scrollbar */
+  overflow-x: hidden; /* This is the line that removes the horizontal scrollbar */
 }
 
 .c-space {
@@ -66,7 +66,7 @@ body {
 }
 
 .section-spacing {
-  @apply min-h-screen mt-20 md:mt-30;
+  @apply py-24 md:py-32;
 }
 
 .text-heading {
